@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brian Reith | Computer Science ePortfolio</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Brian Reith</h1>
+
+        <p>Computer Science ePortfolio</p>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Me</a> |
+            <a href="software.html">Software Engineering</a> |
+            <a href="algorithms.html">Algorithms</a> |
+            <a href="databases.html">Databases</a> |
+            <a href="code-review.html">Code Review</a> |
+            <a href="self-assessment.html">Self-Assessment</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section>
+
+            <h2>Welcome to My Computer Science ePortfolio</h2>
+
+            <p>
+                Welcome to my Computer Science ePortfolio. This portfolio
+                demonstrates my growth throughout the Bachelor of Science
+                in Computer Science program at Southern New Hampshire University.
+            </p>
+
+            <p>
+                The portfolio highlights my experience in software design
+                and engineering, algorithms and data structures, and database
+                development.
+            </p>
+
+        </section>
+
+        <section>
+
+            <h2>Featured Artifacts</h2>
+
+            <h3>Travlr Getaways</h3>
+
+            <p>
+                Software Design and Engineering
+            </p>
+
+            <a href="software.html">
+                View Software Engineering Enhancement
+            </a>
+
+            <h3>Treasure Hunt Game</h3>
+
+            <p>
+                Algorithms and Data Structures
+            </p>
+
+            <a href="algorithms.html">
+                View Algorithms Enhancement
+            </a>
+
+            <h3>Event Reminder App</h3>
+
+            <p>
+                Database Development
+            </p>
+
+            <a href="databases.html">
+                View Database Enhancement
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            Brian Reith | Computer Science ePortfolio
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
