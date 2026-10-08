@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Algorithms and Data Structures | Brian Reith</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Algorithms and Data Structures</h1>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Me</a> |
+            <a href="software.html">Software Engineering</a> |
+            <a href="algorithms.html">Algorithms</a> |
+            <a href="databases.html">Databases</a> |
+            <a href="code-review.html">Code Review</a> |
+            <a href="self-assessment.html">Self-Assessment</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h2>Treasure Hunt Game</h2>
+
+        <h3>Algorithms and Data Structures Enhancement</h3>
+
+        <p>
+            This artifact demonstrates my growth in algorithms and
+            data structures through an enhanced reinforcement learning
+            Treasure Hunt application.
+        </p>
+
+        <h3>Original Artifact</h3>
+
+        <p>
+            The original project used a deep Q-learning agent to
+            navigate a maze and attempt to reach the treasure.
+        </p>
+
+        <h3>Enhanced Artifact</h3>
+
+        <p>
+            I enhanced the project by improving the game execution
+            process and adding a structured play function that
+            evaluates the environment state, selects actions using
+            the trained model, tracks steps, and determines whether
+            the pirate reaches the treasure.
+        </p>
+
+        <h3>Result</h3>
+
+        <p>
+            Pirate reached the treasure in 15 steps.
+        </p>
+
+        <h3>Skills Demonstrated</h3>
+
+        <ul>
+            <li>Algorithmic problem solving</li>
+            <li>Deep Q-learning</li>
+            <li>Python programming</li>
+            <li>Control flow</li>
+            <li>Testing and validation</li>
+        </ul>
+
+    </main>
+
+    <footer>
+
+        <p>Brian Reith | Computer Science ePortfolio</p>
+
+    </footer>
+
+</body>
+
+</html>
