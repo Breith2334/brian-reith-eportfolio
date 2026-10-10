@@ -11,61 +11,46 @@
 <body>
 
     <header>
-        <h1>Brian Reith</h1>
-        <p>Computer Science ePortfolio</p>
-
+        <h1>Databases</h1>
         <nav>
             <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="software.html">Software Engineering</a>
-            <a href="algorithms.html">Algorithms</a>
+            <a href="software-design.html">Software Design</a>
+            <a href="algorithms.html">Algorithms and Data Structures</a>
             <a href="databases.html">Databases</a>
-            <a href="code-review.html">Code Review</a>
-            <a href="self-assessment.html">Self-Assessment</a>
         </nav>
     </header>
 
     <main>
+        <section>
+            <h2>Event Reminder App</h2>
+            <p>
+                This artifact demonstrates my database development skills through
+                an Android application that stores and manages event information
+                using SQLite.
+            </p>
 
-        <h2>Databases: Event Reminder App</h2>
+            <h3>Original Code</h3>
+            <p>
+                The original application allowed users to manage event information.
+                Event data was primarily maintained in an in-memory list, which meant
+                that changes could be lost when the application closed.
+            </p>
+            <a href="artifacts/database/original/README.md">View Original Code</a>
 
-        <h3>Database Enhancement</h3>
-        <p>
-            This artifact demonstrates my database development skills through an
-            Android Event Reminder application using SQLite.
-        </p>
-
-        <h3>Database Functionality</h3>
-        <ul>
-            <li>User account creation</li>
-            <li>User login authentication</li>
-            <li>Event creation, retrieval, editing, and deletion</li>
-            <li>Persistent event storage</li>
-            <li>Event search functionality</li>
-        </ul>
-
-        <h3>Database Structure</h3>
-        <p>
-            The application uses SQLite tables for users and events. Database
-            operations are managed through the DatabaseHelper class.
-        </p>
-
-        <h3>Skills Demonstrated</h3>
-        <ul>
-            <li>SQLite database development</li>
-            <li>CRUD operations</li>
-            <li>Database design</li>
-            <li>Android development</li>
-            <li>Data persistence</li>
-            <li>Authentication</li>
-        </ul>
-
+            <h3>Enhanced Code</h3>
+            <p>
+                The enhanced application uses SQLite to persist event information.
+                The DatabaseHelper class manages database operations, including
+                adding, retrieving, updating, and deleting events. The enhancement
+                also supports searching for events stored in the database.
+            </p>
+            <a href="artifacts/database/enhanced/README.md">View Enhanced Code</a>
+        </section>
     </main>
 
     <footer>
-        <p>Brian Reith | Computer Science ePortfolio</p>
+        <p>&copy; 2026 Brian Reith | CS 499 Computer Science ePortfolio</p>
     </footer>
 
 </body>
-
 </html>
