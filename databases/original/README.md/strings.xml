@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Event_Reminder_App</string>
+    <string name="sms_explanation">This app sends SMS reminders for upcoming events.</string>
+    <string name="enable_sms_notifications">Enable SMS notification</string>
+    <string name="sms_permission_not_granted">SMS permissions not granted</string>
+    <string name="username">add username</string>
+    <string name="login">add login</string>
+    <string name="create_account">add account</string>
+    <string name="upcoming_events">upcoming events</string>
+    <string name="event_name">event name</string>
+    <string name="event_date">event date</string>
+    <string name="add_event">add event</string>
+    <string name="password">add password</string>
+    <string name="sms_permission">add permission</string>
+</resources>
