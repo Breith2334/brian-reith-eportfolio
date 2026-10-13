@@ -1,3 +1,4 @@
+html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,6 +8,31 @@
 
     <title>Code Review | Brian Reith</title>
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 900px;
+            margin: 25px auto;
+            aspect-ratio: 16 / 9;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .video-link {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -33,15 +59,42 @@
 
         <p>
             This video presents my review of the selected artifacts,
-            the areas identified for improvement, and the enhancements
-            planned for the CS 499 capstone.
+            the existing functionality, areas identified for improvement,
+            and the enhancements planned for my CS 499 Computer Science
+            capstone project.
         </p>
 
         <h3>Code Review Video</h3>
 
+        <div class="video-container">
+
+            <iframe
+                src="https://www.youtube-nocookie.com/embed/_spql-yTfl4"
+                title="Brian Reith CS 499 Code Review"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+        <p class="video-link">
+            If the video does not display above,
+            <a href="https://www.youtube.com/watch?v=_spql-yTfl4"
+               target="_blank"
+               rel="noopener noreferrer">
+                click here to watch my Code Review on YouTube
+            </a>.
+        </p>
+
+        <h3>Purpose of the Code Review</h3>
+
         <p>
-            My code review video will be provided here.
-            https://www.youtube.com/watch?v=_spql-yTfl4
+            The purpose of this review is to explain how my original
+            projects work, identify opportunities for improvement, and
+            describe the enhancements I planned for the three areas of
+            my portfolio: software engineering, algorithms and data
+            structures, and database development.
         </p>
 
     </main>
@@ -55,3 +108,4 @@
 </body>
 
 </html>
+
