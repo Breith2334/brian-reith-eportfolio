@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Databases | Brian Reith</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -11,41 +13,136 @@
 <body>
 
     <header>
-        <h1>Databases</h1>
+        <h1>Brian Reith</h1>
+        <p>Computer Science ePortfolio</p>
+
         <nav>
             <a href="index.html">Home</a>
+            <a href="about.html">About</a>
             <a href="software.html">Software</a>
             <a href="algorithms.html">Algorithms</a>
             <a href="databases.html">Databases</a>
+            <a href="code-review.html">Code Review</a>
+            <a href="self-assessment.html">Self-Assessment</a>
         </nav>
     </header>
 
     <main>
+
         <section>
-            <h2>Event Reminder App</h2>
+            <h2>Databases</h2>
+
+            <h3>Event Reminder App</h3>
+
             <p>
                 This artifact demonstrates my database development skills through
-                an Android application that stores and manages event information
-                using SQLite.
+                an Android application that manages event information using SQLite.
+                I selected this project for my Computer Science ePortfolio because
+                it highlights my ability to design and implement database solutions
+                that improve data management, persistence, and user functionality.
+                The project also demonstrates my understanding of database operations,
+                data storage, and how databases can support real-world applications.
             </p>
 
             <h3>Original Code</h3>
+
             <p>
-                The original application allowed users to manage event information.
-                Event data was primarily maintained in an in-memory list, which meant
-                that changes could be lost when the application closed.
+                The original application allowed users to create and manage event
+                information, but the data was stored in an in-memory list. Because
+                the information was only stored while the application was running,
+                all event data was lost when the application was closed. While the
+                original version provided basic event management functionality,
+                it lacked a permanent storage solution and offered limited data
+                retrieval capabilities.
             </p>
-            <a href="https://github.com/Breith2334/brian-reith-eportfolio/tree/main/databases/original">View Original Code</a>
+
+            <p>
+                <a href="https://github.com/Breith2334/brian-reith-eportfolio/tree/main/databases/original"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View Original Code
+                </a>
+            </p>
 
             <h3>Enhanced Code</h3>
+
             <p>
-                The enhanced application uses SQLite to persist event information.
-                The DatabaseHelper class manages database operations, including
-                adding, retrieving, updating, and deleting events. The enhancement
-                also supports searching for events stored in the database.
+                For my enhancement, I implemented SQLite database support to provide
+                persistent storage for event information. I created and integrated
+                a DatabaseHelper class to manage database operations, including
+                adding, retrieving, updating, and deleting event records. This
+                enhancement allows event data to remain available even after the
+                application is closed and reopened, making the application more
+                practical and reliable for users.
             </p>
-            <a href="https://github.com/Breith2334/brian-reith-eportfolio/tree/main/databases/enhanced">View Enhanced Code</a>
+
+            <p>
+                In addition to implementing database persistence, I added search
+                functionality that allows users to locate specific events stored
+                in the database. This feature improves the user experience by
+                making it easier to retrieve relevant information without manually
+                browsing through all stored records. The enhancement demonstrates
+                how database queries can be used to efficiently search and filter
+                data based on user input.
+            </p>
+
+            <p>
+                <a href="https://github.com/Breith2334/brian-reith-eportfolio/tree/main/databases/enhanced"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View Enhanced Code
+                </a>
+            </p>
+
+            <h3>Skills and Knowledge Gained</h3>
+
+            <p>
+                Through this project, I gained experience working with SQL queries,
+                database design, and CRUD operations, which include create, read,
+                update, and delete functions. I learned how applications interact
+                with databases to store and retrieve information and how proper
+                database management helps improve data integrity and long-term
+                usability. I also strengthened my understanding of how different
+                software components work together to support application functionality.
+            </p>
+
+            <h3>Testing and Results</h3>
+
+            <p>
+                After implementing the enhancement, I tested the application to
+                verify that users could successfully add, edit, delete, and search
+                for events while maintaining data between application sessions.
+                The database correctly stored event information, and the search
+                functionality returned matching records as expected. These results
+                confirmed that the application could reliably manage event data
+                while providing improved functionality compared to the original
+                implementation.
+            </p>
+
+            <h3>Challenges and Lessons Learned</h3>
+
+            <p>
+                Working on this enhancement helped me better understand the
+                importance of persistent data storage in software development.
+                I learned that storing information in memory may be sufficient
+                for simple applications, but databases provide a more reliable
+                solution for applications that require long-term data management.
+                I also learned the importance of connecting database methods
+                correctly to the application's user interface and testing each
+                operation to ensure that data is handled consistently.
+            </p>
+
+            <p>
+                Overall, this project strengthened my skills in database development,
+                SQL, application design, and testing while demonstrating how
+                database enhancements can improve both functionality and user
+                experience. This experience will help me apply database concepts
+                to future software development projects that require reliable
+                data storage, retrieval, and management.
+            </p>
+
         </section>
+
     </main>
 
     <footer>
@@ -53,4 +150,6 @@
     </footer>
 
 </body>
+
 </html>
+
