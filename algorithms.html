@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Algorithms | Brian Reith</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -27,37 +29,170 @@
 
     <main>
         <section>
-            <h2>Algorithms</h2>
+            <h2>Algorithms and Data Structures</h2>
 
             <h3>Treasure Hunt Game</h3>
+
             <p>
-                This artifact demonstrates my skills in algorithms, data structures,
-                and artificial intelligence through a Treasure Hunt Game. The game
-                uses a reinforcement learning agent to help a pirate navigate a maze
-                and find treasure.
+                This artifact demonstrates my knowledge of algorithms, data
+                structures, and artificial intelligence through a Treasure Hunt
+                Game that uses reinforcement learning. In the game, a pirate
+                agent must navigate through a maze and find treasure by making
+                decisions based on its environment. I selected this project
+                for my Computer Science ePortfolio because it highlights my
+                ability to work with AI concepts, analyze algorithmic
+                solutions, and improve existing code to make it more effective
+                and reliable.
             </p>
 
             <h3>Original Code</h3>
+
             <p>
-                The original project provided a maze environment and a reinforcement
-                learning model. The pirate agent learned to select actions to navigate
-                the maze and reach the treasure.
+                The original project included a maze environment and a
+                reinforcement learning model that allowed the pirate agent
+                to learn how to move through the maze. The agent evaluated
+                possible actions and used the model's predictions to determine
+                the best path toward the treasure.
             </p>
-            <a href="https://github.com/Breith2334/brian-reith-eportfolio/tree/main/algorithms/original/README.md">
-                View Original Code
-            </a>
+
+            <p>
+                The original implementation successfully demonstrated
+                reinforcement learning in a problem-solving environment.
+                However, there were opportunities to improve the reliability
+                of the game-playing function, particularly in controlling
+                execution and preparing the game state for the model.
+            </p>
+
+            <p>
+                <a href="algorithms/original/README.md">
+                    View Original Code and Documentation
+                </a>
+            </p>
 
             <h3>Enhanced Code</h3>
+
             <p>
-                The enhanced version improves the play_game function by adding a
-                maximum step limit to prevent endless loops, converting the game
-                state into a NumPy array with the appropriate data type, and
-                formatting the state for model predictions. These changes improve
-                reliability and help the pirate agent complete the game efficiently.
+                For my enhancement, I focused on improving the
+                <code>play_game()</code> function. One of the most important
+                changes was adding a maximum step limit to prevent the pirate
+                from moving indefinitely if it could not find the treasure.
+                This improvement gives the program a clear stopping condition
+                and prevents unnecessary execution.
             </p>
-            <a href="https://github.com/Breith2334/brian-reith-eportfolio/tree/main/algorithms/enhanced/README.md">
-                View Enhanced Code
-            </a>
+
+            <p>
+                I also improved how the game state is prepared before being
+                sent to the reinforcement learning model. The state is
+                converted into a NumPy array with the appropriate data type
+                and formatting. This helps provide consistent input to the
+                model and supports more reliable predictions.
+            </p>
+
+            <p>
+                Another enhancement was improving the decision-making process
+                by using the model's predicted action values to select the
+                action with the highest estimated reward. I also improved
+                outcome handling so the program can determine whether the
+                pirate successfully reached the treasure or failed to
+                complete the objective within the step limit.
+            </p>
+
+            <p>
+                These changes strengthened the original implementation
+                without changing the overall purpose of the game. Rather
+                than redesigning the entire project, I focused on targeted
+                improvements that made the existing function more reliable
+                and easier to test.
+            </p>
+
+            <p>
+                <a href="algorithms/enhanced/README.md">
+                    View Enhanced Code and Documentation
+                </a>
+            </p>
+
+            <h3>Skills and Knowledge Gained</h3>
+
+            <p>
+                Through this project, I gained a better understanding of
+                how algorithms support decision-making in artificial
+                intelligence applications. I worked with reinforcement
+                learning concepts and learned how an agent uses information
+                from its environment to select actions and work toward a goal.
+            </p>
+
+            <p>
+                I also developed a stronger understanding of data
+                representation and the importance of preparing information
+                correctly before passing it to a machine learning model.
+                Working with NumPy arrays helped me recognize how data types
+                and input dimensions can affect program behavior and model
+                predictions.
+            </p>
+
+            <p>
+                In addition, this enhancement strengthened my problem-solving,
+                debugging, and software testing skills. I learned the
+                importance of establishing clear stopping conditions,
+                handling different outcomes, and verifying that a program
+                performs as expected.
+            </p>
+
+            <h3>Testing and Results</h3>
+
+            <p>
+                After implementing the enhancement, I tested the updated
+                function to verify that the pirate could interact with the
+                maze environment, make decisions based on model predictions,
+                and correctly identify the outcome of the game.
+            </p>
+
+            <p>
+                During testing, the pirate successfully reached the treasure
+                in 15 steps. This result demonstrated that the updated
+                function could guide the agent through the environment and
+                recognize a successful outcome. The maximum step limit also
+                provided a safeguard for situations in which the agent could
+                not reach its objective.
+            </p>
+
+            <p>
+                Testing was an important part of the enhancement because
+                it allowed me to evaluate the changes and confirm that the
+                updated function preserved the original purpose of the
+                application while improving execution control and reliability.
+            </p>
+
+            <h3>Professional Reflection</h3>
+
+            <p>
+                This project taught me that successful artificial intelligence
+                solutions depend on more than the machine learning model
+                itself. The surrounding code must prepare data correctly,
+                control program execution, select appropriate actions, and
+                handle results accurately.
+            </p>
+
+            <p>
+                By improving an existing function rather than replacing the
+                entire project, I demonstrated how targeted enhancements
+                can strengthen software while preserving its original
+                functionality. This approach reflects an important software
+                development practice: identifying a specific problem,
+                implementing a focused solution, and testing the results.
+            </p>
+
+            <p>
+                Overall, the Treasure Hunt Game enhancement strengthened my
+                understanding of algorithms, data structures, reinforcement
+                learning, and software testing. It also provided valuable
+                experience evaluating existing code and making improvements
+                that support more reliable and effective program behavior.
+                These skills will be useful as I continue developing
+                software solutions and applying computer science concepts
+                to real-world problems.
+            </p>
+
         </section>
     </main>
 
@@ -68,3 +203,4 @@
 </body>
 
 </html>
+
